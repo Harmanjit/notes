@@ -1,0 +1,45 @@
+\documentclass[12t, oneside]{book}
+\usepackage[margin=.75in]{geometry}
+\usepackage{parskip,fontspec}
+\usepackage{graphicx}
+% \usepackage{float,xcolor}
+% \usepackage{makeidx}
+% \usepackage[final]{hyperref}
+\setmainfont[Path = fonts/]{ArialNova-Light}
+
+\title{\includegraphics[width=10cm]{logo.png}\\[6cm] Notes on the Stringent Response in Mycobacteria\\[1cm]}
+\date{2019 \\ July}
+\author{Harmanjit Singh Bansal \\[1cm] Immunology and Microbial Pathogenesis, Weill Cornell Medicine.}
+
+\begin{document}
+
+\frontmatter
+	\maketitle
+    % \input{titlepage}% that contains    \begin{titlepage}...\end{titlepage}
+    % \input{copyright}% that contains copyright, ISBN, etc.
+    % \input{dedication}% saying "this book is created for my parents..." 
+    % \input{Target Audience}
+    % \input{author}% about the author
+    % \input{editor}% about the editor
+    % \tableofcontents
+    % \listoffigures
+    % \listoftables
+    % \lstlistoflistings
+
+\mainmatter
+    \part{Basic}
+        \input{section/ppGpp_quant}
+%         \include{Commands}
+% \part{Advanced}
+%         \include{Tips and Tricks}
+%         \include{PostScript Programming}
+% \backmatter
+%     \appendix% I am not sure where I should invoke \appendix
+%         \include{Installing TeX Distribution}
+%         \include{Math Review}
+%         \include{Answer Keys}
+%         \include{Bibliographies}
+%         \include{Glossaries}
+%         \printindex% I am not sure where I should use \printindex
+
+\end{document}
